@@ -6,12 +6,12 @@ class StudentTestCase(LiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
-        self.browser.implicity_wait(2)
 
     def test_student_find_solos(self):
         """
         Test that a user can search for solos
         """
+        self.fail('Incomplete Test')
         # Steve is a jazz student who would like to find more
         # examples of solos so he can improve his own
         # improvisation. He visits the home page of JMAD.
