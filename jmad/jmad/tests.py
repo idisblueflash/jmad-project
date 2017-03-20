@@ -36,3 +36,5 @@ class StudentTestCase(LiveServerTestCase):
         
         # He also sees the start time and end time of the
         # solo.
+    def tearDown(self):
+        self.browser.quit()
