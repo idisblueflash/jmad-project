@@ -11,10 +11,12 @@ class StudentTestCase(LiveServerTestCase):
         """
         Test that a user can search for solos
         """
-        self.fail('Incomplete Test')
+
         # Steve is a jazz student who would like to find more
         # examples of solos so he can improve his own
         # improvisation. He visits the home page of JMAD.
+        home_page = self.browser.get(self.live_server_url + '/')
+        self.fail('Incomplete Test')        
 
         # He knows he's in the right place because he can see
         # the name of the site in the heading.
